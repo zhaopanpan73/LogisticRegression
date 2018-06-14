@@ -132,7 +132,6 @@ def colic_test():
     print("the error rate of this test is: %f" % error_rate)
     return error_rate
 
-
 def multi_test():
     num_tests = 10
     error_sum = 0.0
