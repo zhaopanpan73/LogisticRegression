@@ -7,10 +7,9 @@ LogisticRegression
 
 <a href="http://www.codecogs.com/eqnedit.php?latex=\sigma(z)=\frac{1}{1&plus;e^{-w^{T}x}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\sigma(z)=\frac{1}{1&plus;e^{-w^{T}x}}" title="\sigma(z)=\frac{1}{1+e^{-w^{T}x}}" /></a>
 
-</br>
-&emsp;&emsp;在每个特征上都乘以一个回归系数，然后把所有的结果相加，将这个总和带入到Sigmoid函数中，进而得到一个范围在0-1之间的数值，任何一个大于0.5的数被分为1类，小于0.5的被分到0类。所以，Logistic可以被看做一种概率估计。
+&emsp;&emsp; 在每个特征上都乘以一个回归系数，然后把所有的结果相加，将这个总和带入到Sigmoid函数中，进而得到一个范围在0-1之间的数值，任何一个大于0.5的数被分为1类，小于0.5的被分到0类。所以，Logistic可以被看做一种概率估计。
 
-&emsp;Logistic回归的主要问题就变成了------>求最佳回归系数。
+&emsp;&emsp; Logistic回归的主要问题就变成了------>求最佳回归系数。
 
 ### 最佳回归系数的确定------>梯度上升法、随机梯度上升法
 
