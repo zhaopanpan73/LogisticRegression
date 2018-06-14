@@ -91,6 +91,8 @@ weight=stoGradAscent(DataSet,labels)
 print (weight)
 plot_best_fit(weight)
 
+
+
 # 实际运用
 # Logistic回归分类函数
 def classify_vector(inx, weights):
